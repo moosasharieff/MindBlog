@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block contents %}
+
+<div class="container">
+    <p>
+        <h3>Assalamualaikum Everyone!</h3>
+
+        Please click on the 'Add Blog' on Top-Right and Add your info.
+    </p>
+
+    {% for item in items %}
+
+    <div class="card">
+      <div class="card-body">
+          Title: {{ item['title'] }}<br>
+          By:    {{item['username'] }}<br>
+          Text:  {{ item['text'] }}
+      </div>
+    </div>
+    {% endfor %}
+
+</div>
+
+{% endblock %}
