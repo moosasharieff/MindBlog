@@ -1,2 +1,2 @@
 # MindBlog
-Would contain all my idea's and thoughts
+People can input their idea's and thought for everyone to view them.
